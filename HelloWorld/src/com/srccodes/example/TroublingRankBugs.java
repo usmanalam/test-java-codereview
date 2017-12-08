@@ -5,7 +5,7 @@ public class TroublingRankBugs {
 	/**
 	 * Empty synchronized.
 	 */
-	private void emptySynchronized() {
+	public void emptySynchronized() {
 		synchronized (this) {
 			// Forgot implementation
 		}
